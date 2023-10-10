@@ -1,0 +1,66 @@
+1. **Filtering (Intermediate Operation):**
+    - Filter the list of persons to include only males.
+2. **Mapping (Intermediate Operation):**
+    - Map the list of persons to their names.
+3. **Sorting (Intermediate Operation):**
+    - Sort the list of persons by their income in descending order.
+4. **Distinct (Intermediate Operation):**
+    - Find the distinct genders in the list of persons.
+5. **Limit (Intermediate Operation):**
+    - Limit the list of persons to the first 3.
+6. **Skip (Intermediate Operation):**
+    - Skip the first 2 persons in the list.
+7. **Peek (Intermediate Operation):**
+    - Use peek to print the names of all persons in the list.
+8. **FlatMap (Intermediate Operation):**
+    - Map each person to a stream of characters representing their names.
+9. **Concatenating Streams (Intermediate Operation):**
+    - Create a new stream by concatenating two lists of persons.
+10. **AnyMatch (Terminal Operation):**
+- Check if any person's income is greater than 8000.0.
+1. **AllMatch (Terminal Operation):**
+- Check if all persons are male.
+1. **NoneMatch (Terminal Operation):**
+- Check if none of the persons have zero income.
+1. **Count (Terminal Operation):**
+- Count the number of persons.
+1. **FindFirst (Terminal Operation):**
+- Find the first person in the list.
+1. **FindAny (Terminal Operation):**
+- Find any person in the list.
+
+16 **Max (Terminal Operation):**
+
+- Find the person with the highest income.
+
+17 **Min (Terminal Operation):**
+
+- Find the person with the lowest income.
+
+18 **GroupingBy (Collector):**
+
+- Group the persons by gender.
+1. **PartitioningBy (Collector):**
+- Partition the persons into male and female.
+1. **SummarizingDouble (Collector):**
+- Calculate the sum, average, max, and min of incomes.
+1. **Joining (Collector):**
+- Join the names of all persons into a single string.
+1. **Reducing (Collector):**
+- Calculate the total income of all persons.
+1. **CollectingAndThen (Collector):**
+- Find the person with the highest income using CollectingAndThen.
+1. **ToMap (Collector):**
+- Create a map of persons where the key is the ID and the value is the person.
+1. **ToSet (Collector):**
+- Convert the list of persons to a set.
+1. **Parallel Stream (Intermediate Operation):**
+- Use parallel stream to process the list of persons.
+1. **Iterating (Intermediate Operation):**
+- Use iterate to create a stream of 10 integers starting from 1.
+1. **Unordered (Intermediate Operation):**
+- Use unordered to create an unordered stream of the list of persons.
+1. **Limiting and Skipping (Intermediate Operation):**
+- Use limit and skip to process only the second and third persons.
+1. **Custom Collector (Terminal Operation):**
+- Create a custom collector to concatenate the names of all persons.
